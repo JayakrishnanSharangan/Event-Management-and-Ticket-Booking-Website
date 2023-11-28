@@ -1,0 +1,358 @@
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: #333545;
+    display: flex;
+}
+.icon{
+    height: 100%;
+    width: 23%;
+}
+.icon h1{
+    padding-left: 30%;
+   font-size: 30px;
+   position: absolute;
+   top:2px; 
+   left: -23%;
+   color: turquoise;
+   font-style: oblique;
+}
+.icon h1:hover{
+    font-size: 200%;
+    text-shadow: 10px 10px 10px black;
+
+}
+.srch{
+    height: 100%;
+    width: 55%;
+    padding-left: 7%;
+    display: flex;
+}
+.srch input{
+    height: 68%;
+    width: 70%;
+    margin-top: 7px;
+}
+.pic{
+    height: 75%;
+    width: 7%;
+    background-color:white;
+    margin-top: 7px;
+}
+.pic i{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.loc{
+    height: 100%;
+    width: 23%;
+}
+.city{
+    height: 30px;
+    width: 75px;
+    margin-top: 4.5%;
+    margin-left: 8%;
+}
+.login{
+height: 30px;
+width: 70px;
+margin-top: 5px;
+margin-left: 50px;
+color: lightgoldenrodyellow;
+background-color: red;}
+.ham{
+    font-size: 30px;
+    color: beige;
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}
+.nav2{
+    height: 60px;
+    width: 100%;
+    background-color: #1f2533;
+    display: flex;
+    gap: 50px;
+}
+.sec{
+    height: 60px;
+    width: 45%;
+    display: flex;
+    padding-left: 110px;
+    color: white;
+    gap: 40px ;
+}
+.nav2 h3:hover{
+        font-size: 120%;
+        text-shadow: 10px 10px 10px black;
+        color: aquamarine;
+}
+.sec2{
+    height: 60px;
+    width: 30%;
+    display: flex;
+    color: white;
+    margin-left: 200px;
+    gap: 30px ;
+}
+.ad{
+    height: 500px;
+    width: 100%;
+    background-color: transparent;
+}
+.events{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-color: azure;
+    gap:40px;
+}
+.evt{
+    height: 70px;
+    width: 100%;
+    font-style: sans-serif;
+    background-color: #333545;
+    color: cornsilk;
+    font-size: 20px;
+    
+}
+.evt h1{
+    position: relative;
+    top: 10px;
+    left: 38%;
+}
+
+.ele1{
+    height: 82%;
+    width: 40%;
+    background-color: azure;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ele1 img {
+    flex-shrink: 8;
+    min-width: 100%;
+    min-height: 100%
+}
+.ele2{
+    height: 82%;
+    width: 40%;
+    background-color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ele2 img {
+    flex-shrink: 9;
+    min-width: 100%;
+    min-height: 100%
+}
+.ele3{
+    height: 82%;
+    width: 40%;
+    background-color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ele3 img {
+    flex-shrink: 1;
+    min-width: 100%;
+    min-height: 100%
+}
+.ele4{
+    height: 82%;
+    width: 40%;
+    background-color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ele4 img {
+    flex-shrink: .5;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.ele5{
+    height: 82%;
+    width: 40%;
+    background-color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ele5 img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.x:hover{
+    height: 83%;
+    width: 43%;
+    box-shadow: 15px 15px 50px black;
+
+}
+.nav3{
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #1f2533;
+    display: flex;
+    border: 2px solid #1f2533 ;
+    border-radius:20px;
+}
+.nav3 h1{
+    font-size: 200px;
+    color: #1f2533;
+    text-shadow: 3px 3px 3px #1f2533;
+}
+.nav4{
+    height: 500px;
+    width: 100%;
+    margin-top: 52%;
+}
+.b{
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    background-color: tan;
+    text-shadow: 3px 3px 3px #1f2533;
+    border: 2px solid #1f2533;
+    border-radius:20px;
+}
+.btn{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius:15px;
+}
+.btn:hover{
+    background-color: rgb(32, 186, 135);
+    color: azure;
+    animation-delay: 5s;
+}
+.nav5{
+    height: 245px;
+    width: 100%;
+    background-color: #313035;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav6{
+    height: 130px;
+    width: 100%;
+    background-color: #666666;
+}
+.ic{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+.ic h4{
+    font-size: 12%;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ic i{
+    font-size: 120px;
+    margin-top: 10px;
+    color: bisque;
+}
+.ic h3{
+    font-size: 100%;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav6 h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans Unicode',;
+    font-weight: bolder;
+    color: aqua;
+    font-style: oblique;
+    position: relative;
+    left: 42%;
+    top: 28%;
+    margin-top: -50px;
+}
+.nav6 h1:hover{
+    font-size: 300%;
+    text-shadow: 10px 10px 10px black;
+}
+.nav7{
+    height: 120px;
+    width: 100%;
+    background-color: #313035;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pc i{
+    font-size: 78px;
+    margin-top: 10px;
+    color:#666666;
+    padding-top: 10px;
+}
+.nav8{
+    height: 120px;
+    width: 100%;
+    background-color: #313035;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav8 h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans Unicode',;
+    color: rgb(246, 209, 165);
+}
+.nav8 h1:hover{
+    font-size: 300%;
+    text-shadow: 10px 10px 10px black;
+}
+
+
+
+/* .chg{
+    position: absolute;
+    top: -20%;
+    left: 0;
+} */
+
+
+.ad  img {
+height: 100%;
+object-fit: cover;
+width: 100%;
+}
+
+.ad {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* .a{
+    position: absolute;
+    top: 100%;
+} */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
